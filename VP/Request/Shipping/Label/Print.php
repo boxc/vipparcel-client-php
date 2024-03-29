@@ -44,6 +44,7 @@ class VP_Request_Shipping_Label_Print extends VP_Abstract_Request
             'rubberStamp1',
             'rubberStamp2',
             'rubberStamp3',
+            'imageFormat',
         );
 
         $domestic = array(
@@ -60,6 +61,7 @@ class VP_Request_Shipping_Label_Print extends VP_Abstract_Request
             'rubberStamp1',
             'rubberStamp2',
             'rubberStamp3',
+            'imageFormat',
         );
 
         return ($this->is_international() ? $international : $domestic);
