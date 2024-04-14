@@ -2,7 +2,7 @@
     "name": "vipparcel/client",
     "description": "VIPparcel Client PHP",
     "require": {
-        "guzzlehttp/guzzle": "^6.5"
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
         "classmap": ["VP"]
